@@ -1,9 +1,19 @@
-const array = [2,3,4,5,6];
-array.forEach(item =>{
-    if(item % 2 === 0){
-        console.log(`o numero ${item} é par` );
-    }
-    else{
-        console.log(`o numero ${item} é impar` );
-    }
-    });
+var lista =[ "Afonso", "Cezinha", "Aline", "tanakao"];
+
+console.log (lista);
+
+console.log(lista[3]);
+
+lista.push ("Felipe");
+console.log(lista);
+
+lista.pop();
+console.log(lista);
+
+lista.length
+console.log(lista.length);
+
+teste = [
+    "Afonso"
+]
+console.log(teste);
